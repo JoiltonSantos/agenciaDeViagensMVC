@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center" color="#127369">
     MVC + CRUD - Agência de viagem - MIGRAR
 </h1>
 
@@ -11,18 +11,21 @@
     <div align="center">
         <img src="https://github.com/JoiltonSantos/agenciaDeViagensMVC/blob/main/migrar_bd/bd_conceitual.jpg">
     </div>
+    <hr>
     <h3>
         Banco de dados lógico
     </h3>
     <div align="center">
         <img src="https://github.com/JoiltonSantos/agenciaDeViagensMVC/blob/main/migrar_bd/bd_logico.jpg">
     </div>
+    <hr>
     <h3>
         Banco de dados físico
     </h3>
     <div>
-        <a href="https://github.com/JoiltonSantos/agenciaDeViagensMVC/blob/main/migrar_bd/bd_fisico.sql"> Clique aqui para acessar o banco de dados físico </a>
+        <p>Clique para acessar o código sql: <a href="https://github.com/JoiltonSantos/agenciaDeViagensMVC/blob/main/migrar_bd/bd_fisico.sql">banco de dados físico </a></p>
     </div>
+    <hr>
     <h3>
         Diagrama de classes
     </h3>

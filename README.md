@@ -8,5 +8,7 @@
    <h2>
         Banco de dados conteitual
     </h2>
-        ![Banco de dados conceitual](https://github.com/JoiltonSantos/agenciaDeViagensMVC/blob/main/migrar_bd/bd_conceitual.jpg)
+    <div align="center">
+        <img src="https://github.com/JoiltonSantos/agenciaDeViagensMVC/blob/main/migrar_bd/bd_conceitual.jpg">
+    </div>
 </details>

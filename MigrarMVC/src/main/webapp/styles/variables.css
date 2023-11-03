@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+:root {
+	--color-main: #127369;
+	--color-secondary: #10403B;
+	--color-neutral: #BFBFBF;
+	--color-accent: #8AA6A3;
+	--color-contrast: #E3B23C;
+	--color-complementary: #4C5958;
+}
+
+/* Definições de fonte */
+@font-face {
+	font-family: 'heavitas';
+	src: url(../fonts/heavitas.ttf);
+}
+
+:root {
+	--font-navbar: 'heavitas', sans-serif;
+}
+
+@font-face {
+	font-family: 'lemonMilk';
+	src: url(../fonts/lemonmilk.otf);
+}
+
+:root {
+	--font-title: 'lemonMilk', sans-serif;
+}
+
+@font-face {
+	font-family: 'roboto';
+	src: url(../fonts/roboto.ttf);
+}
+
+:root {
+	--font-main: 'roboto', sans-serif;
+}
+
+@font-face {
+	font-family: 'coolvetica';
+	src: url(../fonts/coolvetica.otf);
+}
+
+:root {
+	--font-footer: 'coolvetica', sans-serif;
+}
+
+@font-face {
+	font-family: 'coolvetica-italic';
+	src: url(../fonts/coolvetica_italic.otf);
+}
+
+:root {
+	--font-footer-italic: 'coolvetica-italic', sans-serif;
+}

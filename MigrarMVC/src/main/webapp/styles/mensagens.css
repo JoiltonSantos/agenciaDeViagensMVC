@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+* {
+	font-family: var(--font-main);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 20px;
+}
+
+.title {
+	color: var(--color-secondary);
+	font-family: var(--font-title);
+	text-align: center;
+}
+
+.tupla {
+	padding: 15px 10px;
+	white-space: nowrap;
+	font-size: 0.9em;
+}
+
+.tupla-button {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	white-space: nowrap;
+	font-size: 0.9em;
+}
+
+.button {
+	background-color: var(--color-main);
+	border: none;
+	color: var(--color-neutral);
+	font-size: 0.9em;
+	padding: 5px 10px;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	transition: all 0.2s;
+	width: 120px;
+}
+
+.button:hover {
+	background-color: var(--color-secondary);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.4);
+	color: var(--color-contrast);
+	cursor: pointer;
+	transform: translateY(-1px);
+}
+
+.button-custom,
+.button-custom:hover {
+	background-color: darkred;
+}
+
+.center {
+	display: inline-block;
+	margin: 20px auto;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
